@@ -3,8 +3,7 @@
 // SPDX-License-Identifier: EUPL-1.2
 
 use crate::{
-    ClientSettings, Error, NixError, PathInfo, ProgressResult, Proto, Result, ResultExt, Stderr,
-    Verbosity,
+    nix::Proto, ClientSettings, Error, NixError, PathInfo, Result, ResultExt, Stderr, Verbosity,
 };
 use async_stream::try_stream;
 use chrono::DateTime;
